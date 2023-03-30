@@ -1,0 +1,56 @@
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+ul {
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: -10vw;
+}
+
+.select {
+  font-size: 15px;
+
+  border-radius: 4px;
+  font-family: roboto;
+  margin: 10px;
+}
+
+.notContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notFound {
+  width: 38vw;
+  height: 35vh;
+}
+.oops {
+  color: #475569;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'roboto';
+}
+.not {
+  color: #475569;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: 'roboto';
+}
+
+.retry {
+  background-color: #328af2;
+  color: aliceblue;
+  font-size: 20px;
+  padding: 8px;
+  width: 89px;
+}

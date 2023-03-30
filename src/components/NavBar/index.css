@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  width: 100vw;
+  height: 16vh;
+  align-self: center;
+  background-color: #cbd5e1;
+}
+
+.image {
+  width: 19vw;
+  margin-left: 19px;
+  height: 10vh;
+  padding-left: 5%;
+}
